@@ -1,3 +1,3 @@
 library(plumber)
 
-plumb("api.R")$run(port = 80)
+plumb("api.R")$run(host='0.0.0.0', port=80)
