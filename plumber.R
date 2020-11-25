@@ -1,3 +1,3 @@
 library(plumber)
 
-pr("api.R")$run(port = 80)
+plumb("api.R")$run(port = 80)
